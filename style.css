@@ -1,23 +1,25 @@
+html,
 body{
-    margin: 0px;
-    /*background-color: gold !important;*/
+    height: 100%;
+    width: 100%;
 }
 
 .navbar{
-    background-color:grey !important;
+    background-color: #23415C !important;
 }
 
-.landing-contain{
-    border: 1px solid;
-    padding: 0;
-    
+
+img{
+    height: 300px;
+    width: 300px;
 }
 
-.jumbotron{
-    background-image: url("img/Downtown-Cleve.jpg");
-    background-repeat: no-repeat;
-    height: 800px;
-    width: auto;
-    
-}
+.home{
+    background: url("/img/Cleveland-2.jpg");
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
 
+}
