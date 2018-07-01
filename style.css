@@ -1,3 +1,10 @@
+:root {
+    --main-green: #002d05;
+    --main-gold: #ce9b00;
+    --hover-yellow: #fed148;
+
+}
+
 html,
 body{
     height: 100%;
@@ -5,9 +12,43 @@ body{
 }
 
 .navbar{
-    background-color: #23415C !important;
+    background-color: var(--main-green) !important;
+    padding: 1% 0;
+    font-size: 1.2em;
+    height: 4em;
 }
 
+.navbar-brand{
+    color: var(--main-gold);
+}
+
+.navbar-nav li a{
+    color: var(--main-gold);
+}
+
+.navbar-nav li a:hover {
+ color: var(--hover-yellow) !important;
+}
+
+span.navbar-toggler-icon{
+    color: var(--main-green) !important;
+}
+
+button.navbar-toggler{
+    border: 2px solid var(--main-gold) !important;
+    background-color: var(--main-green) !important;
+}
+
+#navbarText{
+    text-align: center;
+    
+}
+
+.collapse.navbar-collapse{
+    background-color: var(--main-green) !important; 
+    width: 100%;
+    
+}
 
 img{
     height: 300px;
@@ -15,10 +56,10 @@ img{
 }
 
 .home{
-    background: url("/img/Cleveland-2.jpg");
+    margin-top: 4.8em;
+    background: url("/img/Downtown-Cleve.jpg");
     display: table;
-    height: 100%;
-    position: relative;
+    height: 500px;
     width: 100%;
     background-size: cover;
 
