@@ -1,0 +1,19 @@
+{
+  "name": "reygalindolanding",
+  "version": "1.0.0",
+  "description": "Rey Galindo Landing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABardot/ReyGalindoLanding.git"
+  },
+  "author": "Adrien Bardot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ABardot/ReyGalindoLanding/issues"
+  },
+  "homepage": "https://github.com/ABardot/ReyGalindoLanding#readme"
+}
