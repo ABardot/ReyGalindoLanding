@@ -41,3 +41,5 @@ main {
     margin-top: 1rem; }
     main .icons a {
       padding: 0.4rem; }
+      main .icons a:hover {
+        color: #ce9b00; }
