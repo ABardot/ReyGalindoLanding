@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ABardot/ReyGalindoLanding/issues"
   },
-  "homepage": "https://github.com/ABardot/ReyGalindoLanding#readme"
+  "homepage": "https://github.com/ABardot/ReyGalindoLanding#readme",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
 }
