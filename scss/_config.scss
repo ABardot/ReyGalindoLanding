@@ -2,10 +2,10 @@ $primary-color: #002d05;
 $secondarty-color: #ce9b00;
 $show-home-image: true;
 $home-image: url(/img/Downtown-Cleve.jpg);
-$background-opacity: 0.8;
+$background-opacity: 0.7;
 
 @mixin easeOut {
-    transition: all 0.9s ease-out;
+    transition: all 0.7s ease-out;
 }
 
 @mixin background {
