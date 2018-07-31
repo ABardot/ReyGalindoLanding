@@ -135,6 +135,10 @@
   transition: all 0.7s ease-out;
 }
 
+.menu .nav-link:hover {
+  color: #ce9b00;
+}
+
 .nav-item:nth-child(1) {
   -webkit-transition-delay: 0.1s;
           transition-delay: 0.1s;
