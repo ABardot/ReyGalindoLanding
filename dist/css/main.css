@@ -153,7 +153,8 @@ h2 {
   h2.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(0, 55, 6, 0.5); }
+    background: rgba(0, 55, 6, 0.5);
+    box-shadow: 5px 5px 8px #000; }
 
 a {
   color: #fff;
@@ -165,11 +166,12 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #ce9b00; }
+  color: #ce9b00;
+  text-shadow: 2px 5px 5px #000; }
 
 main {
   padding: 4rem;
-  height: 100%; }
+  min-height: calc(100vh - 50px); }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -184,7 +186,7 @@ main {
 
 .about-info {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 20px;
   grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
 
@@ -193,6 +195,7 @@ main {
   margin: auto;
   border-radius: 50%;
   border: #ce9b00 4px solid;
+  box-shadow: 8px 8px 8px #000;
   height: 300px;
   width: 300px; }
 
@@ -210,6 +213,14 @@ main {
   grid-area: job3; }
 
 .job {
-  background: #004708;
+  background: #004107;
   padding: 0.5rem;
-  border-bottom: #ce9b00 5px solid; }
+  border-bottom: #ce9b00 5px solid;
+  box-shadow: 8px 8px 8px #000; }
+
+.main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #001e03;
+  color: set-text-color(#002d05);
+  height: 50px; }

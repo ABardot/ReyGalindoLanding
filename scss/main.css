@@ -247,6 +247,8 @@ h2.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
   background: rgba(0, 55, 6, 0.5);
+  -webkit-box-shadow: 5px 5px 8px #000;
+          box-shadow: 5px 5px 8px #000;
 }
 
 a {
@@ -262,11 +264,12 @@ header {
 
 .text-secondary {
   color: #ce9b00;
+  text-shadow: 2px 5px 5px #000;
 }
 
 main {
   padding: 4rem;
-  height: 100%;
+  min-height: calc(100vh - 50px);
 }
 
 main .icons {
@@ -294,7 +297,7 @@ main#home h1 {
 .about-info {
   display: -ms-grid;
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 20px;
       grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
@@ -307,6 +310,8 @@ main#home h1 {
   margin: auto;
   border-radius: 50%;
   border: #ce9b00 4px solid;
+  -webkit-box-shadow: 8px 8px 8px #000;
+          box-shadow: 8px 8px 8px #000;
   height: 300px;
   width: 300px;
 }
@@ -338,8 +343,18 @@ main#home h1 {
 }
 
 .job {
-  background: #004708;
+  background: #004107;
   padding: 0.5rem;
   border-bottom: #ce9b00 5px solid;
+  -webkit-box-shadow: 8px 8px 8px #000;
+          box-shadow: 8px 8px 8px #000;
+}
+
+.main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #001e03;
+  color: set-text-color(#002d05);
+  height: 50px;
 }
 /*# sourceMappingURL=main.css.map */
