@@ -184,6 +184,7 @@ main {
 
 .about-info {
   display: grid;
+  grid-gap: 30px;
   grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
 
@@ -191,10 +192,13 @@ main {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: #ce9b00 3px solid; }
+  border: #ce9b00 4px solid;
+  height: 300px;
+  width: 300px; }
 
 .bio {
-  grid-area: bio; }
+  grid-area: bio;
+  font-size: 1.2rem; }
 
 .job-1 {
   grid-area: job1; }
@@ -204,3 +208,8 @@ main {
 
 .job-3 {
   grid-area: job3; }
+
+.job {
+  background: #004708;
+  padding: 0.5rem;
+  border-bottom: #ce9b00 5px solid; }

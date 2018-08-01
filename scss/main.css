@@ -294,6 +294,7 @@ main#home h1 {
 .about-info {
   display: -ms-grid;
   display: grid;
+  grid-gap: 30px;
       grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
@@ -305,7 +306,9 @@ main#home h1 {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: #ce9b00 3px solid;
+  border: #ce9b00 4px solid;
+  height: 300px;
+  width: 300px;
 }
 
 .bio {
@@ -313,6 +316,7 @@ main#home h1 {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-area: bio;
+  font-size: 1.2rem;
 }
 
 .job-1 {
@@ -331,5 +335,11 @@ main#home h1 {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
   grid-area: job3;
+}
+
+.job {
+  background: #004708;
+  padding: 0.5rem;
+  border-bottom: #ce9b00 5px solid;
 }
 /*# sourceMappingURL=main.css.map */
