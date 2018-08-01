@@ -1,7 +1,6 @@
 @import 'config';
 @import 'menu';
 
-
 * {
     box-sizing: border-box;
 }
@@ -119,6 +118,10 @@ main {
      border-bottom: $secondarty-color 5px solid;
      box-shadow: 8px 8px 8px #000;
  }
+
+
+
+ 
 
  .main-footer {
      text-align: center;
