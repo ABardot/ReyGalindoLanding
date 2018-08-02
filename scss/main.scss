@@ -119,9 +119,23 @@ main {
      box-shadow: 8px 8px 8px #000;
  }
 
+// Services page
+.services {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    
+}
 
+// .item1 {
+    
+    
+//     border-radius: 50%;
+//     border: $secondarty-color 4px solid;
+//     box-shadow: 8px 8px 8px #000;
+// }
 
- 
 
  .main-footer {
      text-align: center;
