@@ -122,10 +122,8 @@ main {
 // Services page
 .services {
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 2fr);
     text-align: center;
-    
 }
 
 // .item1 {
