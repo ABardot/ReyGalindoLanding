@@ -108,11 +108,11 @@ main {
     grid-area: job2; 
  }
 
- .job-3 {
+.job-3 {
     grid-area: job3; 
  }
 
- .job {
+.job {
      background: lighten($primary-color, 4);
      padding: 0.5rem;
      border-bottom: $secondarty-color 5px solid;
@@ -126,19 +126,13 @@ main {
     text-align: center;
 }
 
-.providers {
-    
+.work {
+
 }
 
 
 
-// .item1 {
-    
-    
-//     border-radius: 50%;
-//     border: $secondarty-color 4px solid;
-//     box-shadow: 8px 8px 8px #000;
-// }
+
 
 
  .main-footer {
