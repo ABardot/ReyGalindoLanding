@@ -313,9 +313,14 @@ main#home h1 {
 .services {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (2fr)[5];
-      grid-template-columns: repeat(5, 2fr);
-  text-align: center;
+  grid-gap: 20px;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.services .item {
+  width: 100%;
+  border: 3px #fff solid;
 }
 
 .main-footer {

@@ -119,18 +119,19 @@ main {
      box-shadow: 8px 8px 8px #000;
  }
 
-// Services page
+// Services
 .services {
     display: grid;
-    grid-template-columns: repeat(5, 2fr);
-    text-align: center;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+
+    .item {
+        width: 100%;
+        border: 3px #fff solid;
+    }
 }
-
-.work {
-
-}
-
-
+    
+    
 
 
 
