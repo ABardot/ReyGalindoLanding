@@ -192,13 +192,28 @@ main {
   border-bottom: #ce9b00 5px solid;
   box-shadow: 8px 8px 8px #000; }
 
-.services {
+.service-info {
   display: grid;
   grid-gap: 20px;
+  grid-template-areas: 'item1 item2 item3 item4';
   grid-template-columns: repeat(4, 1fr); }
-  .services .item {
-    width: 100%;
-    border: 3px #fff solid; }
+
+.item {
+  background: #004107;
+  padding: 0.9rem;
+  border-bottom: #ce9b00 5px solid;
+  box-shadow: 8px 8px 8px #000;
+  text-align: center; }
+  .item .item1 {
+    grid-area: item1; }
+  .item .item2 {
+    grid-area: item2; }
+  .item .item3 {
+    grid-area: item3; }
+  .item .item4 {
+    grid-area: item4; }
+  .item .fas {
+    padding: auto; }
 
 .main-footer {
   text-align: center;
@@ -230,6 +245,9 @@ main {
     transform: translate3d(100%, 0, 0); }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-columns: 1fr; }
+  .service-info {
+    grid-template-areas: 'item1' 'item2' 'item3' 'item4';
     grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 500px) {
