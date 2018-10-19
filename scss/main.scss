@@ -27,7 +27,7 @@ h2 {
 
     &.sm-heading {
         margin-bottom: 2rem;
-        padding: 0.2rem 1rem;
+        padding: 0.2rem;
         background: rgba(lighten($primary-color, 2), 0.5);
         box-shadow: 5px 5px 8px #000;
     }
@@ -124,39 +124,67 @@ main {
     grid-template-areas: 
     'item1 item2 item3 item4';
     grid-template-columns: repeat(4, 1fr);
+
+    .item {
+        background: lighten($primary-color, 9);
+        padding: 0.9rem;
+        border-bottom: $secondarty-color 5px solid;
+        box-shadow: 8px 8px 8px #000;
+        text-align: center;
+    
+        .item1 {
+            grid-area: item1;
+           
+        }
+        
+        .item2 {
+            grid-area: item2;
+        }
+        
+        .item3 {
+            grid-area: item3;
+        }
+        
+        .item4 {
+            grid-area: item4;
+        }
+    
+        .fas {
+          padding: auto;
+    
+        }
+    }
+    
 }
  
-.item {
-    background: lighten($primary-color, 4);
-    padding: 0.9rem;
-    border-bottom: $secondarty-color 5px solid;
-    box-shadow: 8px 8px 8px #000;
-    text-align: center;
 
-    .item1 {
-        grid-area: item1;
-       
-    }
-    
-    .item2 {
-        grid-area: item2;
-    }
-    
-    .item3 {
-        grid-area: item3;
-    }
-    
-    .item4 {
-        grid-area: item4;
+// Providers 
+.providers {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+    'pro1 pro2 pro3 pro4 pro5'
+    'pro6 pro7 pro8 pro9 pro10';
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 3rem;
+
+    .provider {
+        background: lighten($primary-color, 9);
+        padding: 0.9rem;
+        border-bottom: $secondarty-color 5px solid;
+        box-shadow: 8px 8px 8px #000;
+        text-align: center;
     }
 
-    .fas {
-      padding: auto;
-
+    img {
+        width: 150px;
+        height: 100px;
     }
+
+
+
+
 }
-
-
 
 
 

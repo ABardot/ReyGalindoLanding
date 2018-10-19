@@ -126,7 +126,7 @@ h2 {
   h1.sm-heading,
   h2.sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
+    padding: 0.2rem;
     background: rgba(0, 55, 6, 0.5);
     box-shadow: 5px 5px 8px #000; }
 
@@ -197,23 +197,38 @@ main {
   grid-gap: 20px;
   grid-template-areas: 'item1 item2 item3 item4';
   grid-template-columns: repeat(4, 1fr); }
+  .service-info .item {
+    background: #005b0a;
+    padding: 0.9rem;
+    border-bottom: #ce9b00 5px solid;
+    box-shadow: 8px 8px 8px #000;
+    text-align: center; }
+    .service-info .item .item1 {
+      grid-area: item1; }
+    .service-info .item .item2 {
+      grid-area: item2; }
+    .service-info .item .item3 {
+      grid-area: item3; }
+    .service-info .item .item4 {
+      grid-area: item4; }
+    .service-info .item .fas {
+      padding: auto; }
 
-.item {
-  background: #004107;
-  padding: 0.9rem;
-  border-bottom: #ce9b00 5px solid;
-  box-shadow: 8px 8px 8px #000;
-  text-align: center; }
-  .item .item1 {
-    grid-area: item1; }
-  .item .item2 {
-    grid-area: item2; }
-  .item .item3 {
-    grid-area: item3; }
-  .item .item4 {
-    grid-area: item4; }
-  .item .fas {
-    padding: auto; }
+.providers {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas: 'pro1 pro2 pro3 pro4 pro5' 'pro6 pro7 pro8 pro9 pro10';
+  grid-template-columns: repeat(5, 1fr);
+  padding-top: 3rem; }
+  .providers .provider {
+    background: #005b0a;
+    padding: 0.9rem;
+    border-bottom: #ce9b00 5px solid;
+    box-shadow: 8px 8px 8px #000;
+    text-align: center; }
+  .providers img {
+    width: 150px;
+    height: 100px; }
 
 .main-footer {
   text-align: center;
@@ -248,7 +263,10 @@ main {
     grid-template-columns: 1fr; }
   .service-info {
     grid-template-areas: 'item1' 'item2' 'item3' 'item4';
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .providers {
+    grid-template-areas: 'pro1 pro2' 'pro3 pro4' 'pro5 pro6' 'pro7 pro8' 'pro9 pro10';
+    grid-template-columns: 2fr; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
