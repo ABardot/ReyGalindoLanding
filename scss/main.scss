@@ -130,8 +130,7 @@ main {
         padding: 0.9rem;
         border-bottom: $secondarty-color 5px solid;
         box-shadow: 8px 8px 8px #000;
-        text-align: center;
-    
+        
         .item1 {
             grid-area: item1;
            
@@ -148,11 +147,15 @@ main {
         .item4 {
             grid-area: item4;
         }
-    
-        .fas {
-          padding: auto;
-    
+
+        h3 {
+            text-align: center;
         }
+
+        .center {
+            text-align: center;
+        }
+        
     }
     
 }
@@ -174,16 +177,43 @@ main {
         border-bottom: $secondarty-color 5px solid;
         box-shadow: 8px 8px 8px #000;
         text-align: center;
+
+        .pro1 {
+            grid-area: por1;
+        }
+        .pro2 {
+            grid-area: por2;
+        }
+        .pro3 {
+            grid-area: por3;
+        }
+        .pro4 {
+            grid-area: por4;
+        }
+        .pro5 {
+            grid-area: por5;
+        }
+        .pro6 {
+            grid-area: por6;
+        }
+        .pro7 {
+            grid-area: por7;
+        }
+        .pro8 {
+            grid-area: por8;
+        }
+        .pro9 {
+            grid-area: por9;
+        }
+        .pro10 {
+            grid-area: por10;
+        }
     }
 
     img {
         width: 150px;
         height: 100px;
     }
-
-
-
-
 }
 
 

@@ -1,11 +1,24 @@
 // Widescreens
 @include mediaXl {
+    .services {
+        grid-auto-columns: repeat(4, 1fr);
+    }
+
+    .providers {
+        grid-auto-columns: repeat(5, 1fr);
+    }
 
 }
 
 // Desktops and Laptops
 @include mediaLg {
-    
+    .services {
+        grid-auto-columns: repeat(4, 1fr);
+    }
+
+    .providers {
+        grid-auto-columns: repeat(4, 1fr);
+    }
 }
 
 // Tablets and Small Laptops
@@ -72,6 +85,14 @@
     'pro9 pro10';
 
     grid-template-columns: 2fr;
+    }
+
+    .services {
+        grid-template-columns: repeat(2, 50px 1fr) 100px;
+    }
+
+    .providers {
+        grid-auto-columns: repeat(5, 1fr);
     }
 }
 
