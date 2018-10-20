@@ -84,15 +84,15 @@
     'pro7 pro8'
     'pro9 pro10';
 
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr;
     }
 
     .services {
-        grid-template-columns: repeat(2, 50px 1fr) 100px;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .providers {
-        grid-auto-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -100,5 +100,13 @@
 @include mediaSm {
     main#home h1 {
         margin-top: 10vh;
+    }
+
+    .services {
+        grid-template-columns: 1fr;
+    }
+
+    .providers {
+        grid-template-columns: 1fr;
     }
 }
